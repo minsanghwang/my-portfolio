@@ -11,8 +11,8 @@
   예) hello@example.com  ->  EMAIL_USER: 'hello', EMAIL_DOMAIN: 'example.com'
 ============================================================ */
 const CONTACT_CONFIG = {
-  EMAIL_USER: 'kbhj6789@gmail.com',
-  EMAIL_DOMAIN: 'example.com',
+  EMAIL_USER: 'kbhj6789@',
+  EMAIL_DOMAIN: 'gmail.com',
 };
 
 document.addEventListener('DOMContentLoaded', () => {
