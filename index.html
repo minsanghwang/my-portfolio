@@ -43,7 +43,7 @@
       <a href="#about" class="nav-link">소개</a>
       <a href="#experience" class="nav-link">경력</a>
       <a href="#skills" class="nav-link">스킬</a>
-      <a href="#projects" class="nav-link">프로젝트</a>
+      <a href="#projects" class="nav-link">공개할 것과 공개하지 않을 것</a>
       <a href="#contact" class="nav-link">연락처</a>
     </nav>
   </div>
@@ -57,8 +57,8 @@
       <p class="eyebrow"><span class="eyebrow-tick" aria-hidden="true">◍</span> PORTFOLIO / REV. 2026</p>
       <!-- EDIT: 헤드라인 -->
       <h1 class="hero-title">
-        한눈에 <span class="ink-underline">들어</span>오 는<br>
-        인상적인 문구
+        황민상 <span class="ink-underline">취업</span>준비생<br>
+        꽃피우기 전
       </h1>
       <!-- EDIT: 소개문구 3개 (제목/상세 텍스트만 바꾸세요, 구조는 유지) -->
       <div class="intro-accordion" id="introAccordion">
@@ -70,31 +70,31 @@
             </button>
           </h2>
           <div class="accordion-panel" id="intro1-panel" role="region" aria-labelledby="intro1-btn" aria-hidden="true">
-            <p>클릭 혹은 엔터를 통해 추가 문구를 확인할 수 있습니다.</p>
+            <p>클릭 혹은 엔터, 스페이스 바를 통해 추가 문구를 확인할 수 있습니다.</p>
           </div>
         </div>
 
         <div class="accordion-item">
           <h2 class="accordion-heading">
             <button type="button" class="accordion-trigger" id="intro2-btn" aria-expanded="false" aria-controls="intro2-panel">
-              <span>공개할 것</span>
+              <span>공개할 것과 공개하지 않을 것</span>
               <span class="accordion-icon" aria-hidden="true">+</span>
             </button>
           </h2>
           <div class="accordion-panel" id="intro2-panel" role="region" aria-labelledby="intro2-btn" aria-hidden="true">
-            <p>이름, 나이, 이메일 주소.</p>
+            <p>공개할 것: 이름, 나이, 이메일 주소. 공개하지 않을 것: 전화번호, 얼굴, 학교.</p>
           </div>
         </div>
 
         <div class="accordion-item">
           <h2 class="accordion-heading">
             <button type="button" class="accordion-trigger" id="intro3-btn" aria-expanded="false" aria-controls="intro3-panel">
-              <span>공개하지 않을 것</span>
+              <span>웹소설</span>
               <span class="accordion-icon" aria-hidden="true">+</span>
             </button>
           </h2>
           <div class="accordion-panel" id="intro3-panel" role="region" aria-labelledby="intro3-btn" aria-hidden="true">
-            <p>전화번호, 얼굴, 학교.</p>
+            <p>대학 웹소설 공모전에서 대상 수상을 하며 꿈을 꿨었습니다.</p>
           </div>
         </div>
       </div>
@@ -205,49 +205,49 @@
   <!-- ============ PROJECTS ============ -->
   <section class="section section-alt" id="projects">
     <div class="section-inner">
-      <p class="section-eyebrow">04 · 프로젝트</p>
+      <p class="section-eyebrow">04 · 공개할 것과 공개하지 않을 것</p>
       <h2 class="section-title">Projects</h2>
 
       <div class="filter-bar" role="group" aria-label="프로젝트 카테고리 필터">
         <button class="filter-btn is-active" data-filter="all">전체</button>
-        <button class="filter-btn" data-filter="web">공모전</button>
+        <button class="filter-btn" data-filter="web">공개할 것</button>
        <!-- 
-        <button class="filter-btn" data-filter="tool">도구</button>
         <button class="filter-btn" data-filter="design">디자인</button>
         -->
+        <button class="filter-btn" data-filter="tool">공개하지 않을 것</button>
       </div>
 
       <div class="project-grid" id="projectGrid">
         <!-- EDIT: 프로젝트 카드 (article 통째로 복사해서 늘려도 됩니다) -->
         <article class="project-card" data-category="web" tabindex="0">
           <div class="project-card-head">
-            <span class="folder-tab">공모전</span>
-            <span class="stamp stamp-done">완료</span>
+            <span class="folder-tab">public</span>
+          <!--  <span class="stamp stamp-done"></span>-->
           </div>
-          <h3>대학 공모전 출전</h3>
-          <p class="project-period">2024.03 — 2024.09</p>
+          <h3>공개할 것</h3>
+          <p class="project-period"></p>
           <p class="project-summary">
-           팀으로 Dungeon Decktics 게임을 통해 학교 공모전에서 장려상을 수상했습니다.
+           이름, 나이, 이메일 주소.
           </p>
           <ul class="tag-list tag-list-sm">
-            <li>React</li><li>TypeScript</li><li>성능 최적화</li>
+            <li>황민상</li><li>99년생</li><li>하단 버튼 참조</li>
+          </ul>
+        </article>
+        <article class="project-card" data-category="tool" tabindex="0">
+          <div class="project-card-head">
+            <span class="folder-tab">공개하지 않을 것</span>
+          <!--  <span class="stamp stamp-progress">진행중</span>-->
+          </div>
+          <h3>공개하지 않을 것</h3>
+          <p class="project-period"></p>
+          <p class="project-summary">
+            전화번호, 얼굴, 학교.
+          </p>
+          <ul class="tag-list tag-list-sm">
+            <li>개인정보</li><li>보포</li><li>프라이버시</li>
           </ul>
         </article>
 <!--
-        <article class="project-card" data-category="tool" tabindex="0">
-          <div class="project-card-head">
-            <span class="folder-tab">TOOL</span>
-            <span class="stamp stamp-progress">진행중</span>
-          </div>
-          <h3>디자인 토큰 CLI</h3>
-          <p class="project-period">2025.01 — 진행중</p>
-          <p class="project-summary">
-            Figma 토큰을 코드용 변수로 자동 변환하는 내부 도구를 만들고 있습니다.
-          </p>
-          <ul class="tag-list tag-list-sm">
-            <li>Node.js</li><li>CLI</li><li>Design System</li>
-          </ul>
-        </article>
 
         <article class="project-card" data-category="design" tabindex="0">
           <div class="project-card-head">
